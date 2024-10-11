@@ -3,9 +3,9 @@ import { buscarValorNumericoEmTela, exibirValorEmElemento } from './moduloTela';
 import './style.scss'
 
 const botaoSoma = document.getElementById('btnSomar');
-botaoSoma.addEventListener('click', () => somarDoisNúmeros());
+botaoSoma.addEventListener('click', iniciaProcessoSoma);
 
-function somarDoisNúmeros() {
+function iniciaProcessoSoma() {
   const numeroUm = buscarValorNumericoEmTela('input1');
   const numeroDois = buscarValorNumericoEmTela('input2');
 
