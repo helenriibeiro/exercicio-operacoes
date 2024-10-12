@@ -4,3 +4,25 @@ export function somarDoisNumeros(numeroUm, numeroDois) {
     }
     return numeroUm + numeroDois;
 }
+
+export function subtrairDoisNumeros(numeroUm, numeroDois) {
+    if (isNaN(numeroUm) || isNaN(numeroDois)) {
+        return "Pelo menos um dos valores não é um número válido.";
+    }
+    return numeroUm - numeroDois;
+}
+
+export function multiplicarDoisNumeros(numeroUm, numeroDois) {
+    if (isNaN(numeroUm) || isNaN(numeroDois)) {
+        return "Pelo menos um dos valores não é um número válido.";
+    }
+    return numeroUm * numeroDois;
+}
+
+
+export function dividirDoisNumeros(numeroUm, numeroDois) {
+    if (isNaN(numeroUm) || isNaN(numeroDois)) {
+        return "Pelo menos um dos valores não é um número válido.";
+    }
+    return numeroUm / numeroDois;
+}
