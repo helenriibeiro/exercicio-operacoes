@@ -24,5 +24,8 @@ export function dividirDoisNumeros(numeroUm, numeroDois) {
     if (isNaN(numeroUm) || isNaN(numeroDois)) {
         return "Pelo menos um dos valores não é um número válido.";
     }
+    if(numeroDois == 0){
+        return "Não é possivel dividir por ZERO"
+    }
     return numeroUm / numeroDois;
 }
